@@ -1,0 +1,203 @@
+
+.display{
+    display: flex;
+}
+.background{
+    background-color: #1A0B2E;
+}
+/* nav bar design */ 
+
+.brand{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+.sub{
+    color: rgba(154, 96, 4, 0.89) ;
+}
+.navbar{
+    background-color:#1A0B2E;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.link{
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+}
+.primary-btn{
+    background-color: rgb(135, 79, 11);
+    color: aliceblue;
+    padding: 5px 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 40px;
+    border: 1px solid rgb(185, 185, 86);
+}
+.bag{
+    max-width: 1600;
+    margin: 0 auto;
+}
+/* main section */
+
+.intro{
+    max-width: 1000px;
+    max-height: 222px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+.about{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+/* sarbay section */
+#surbay{
+    display: flex;
+    color: white;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200;
+    max-width: 94;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+.k{
+    font-size: 2rem;
+    font-weight: 700;
+    color: greenyellow;
+}
+.subs{
+    max-width: 240;
+    max-height: 94;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 2px 10px 0 teal;
+}
+
+/* why chose tech wave */
+.why{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 700;
+    color: white;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  gap: 55px;
+  color: white;
+  max-width: 1200px;
+  max-height: 780px;
+  margin: 0 auto;
+}
+.code{
+    max-width: 60px;
+    max-height: 60px;
+}
+.premium{
+
+    grid-row: span 2;
+    max-width: 380px;
+    max-height: 480px;
+    box-shadow: 0 2px 10px 0 teal;
+    border-radius: 40px;
+    text-align: center;
+
+}
+.mobile{
+    grid-column: span 1;
+    box-shadow: 0 2px 10px 0 teal;
+    border-radius: 40px;
+    max-width: 790px;
+    max-height: 225px;
+}
+
+.global{
+  grid-column: span 1;
+  box-shadow: 0 2px 10px 0 teal;
+  border-radius: 40px;
+  max-width: 790px;
+  max-height: 225px;
+
+}
+.exclusive{
+    grid-column: span 2;
+    max-width: 790px;
+    max-height: 273px;
+    box-shadow: 0 2px 10px 0 teal; 
+    border-radius: 40px;
+}
+
+.resources{
+    grid-column: span 1;
+    border-radius: 40px;
+    max-height: 270px;
+    max-width: 380px;
+    box-shadow: 0 2px 10px 0 teal;
+}
+/* podcast section */
+.podcast{
+    display: flex;
+    max-width: 1200px;
+    max-height: 540px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.future, .tech, .habit{
+    border: 2px solid teal;
+    border-radius: 6px;
+}
+.ai{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 5px;
+    text-align: center;
+}
+.explore{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+/* meet the host */
+.host{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1220px;
+    max-height: 280px;
+    gap: 24px;
+    box-shadow: 0 2px 10px 0 teal;
+    border-radius: 20px;
+}
+.name{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.intro{
+    max-width: 890px;
+    max-height: 72px;
+    margin-top: 5px;
+}
+.profile{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.alex{
+    margin-left: 10px;
+    margin-top: 10px;
+}
